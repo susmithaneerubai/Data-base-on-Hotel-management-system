@@ -1,0 +1,9 @@
+For this Hotel Management System. We have 9 entieres and each entity hold different information. Read below to see the short description of each entity.
+Hotel -​ The locations of the hotel and what type of the hotel.
+Tax -​ Each hotel has different tax rate and type base on the location.
+Service -​ Any kind of service that being charged to the customers including spa, room service, bar, ect.
+Room Rate -​ Various of rate base on the schedule throughout the years and cost base on the room size.
+Booking -​ Customers booking date and number of guest sleeping in a room. Customer -​ information about the customers including contact information and where
+they live.
+Billing -​ Create billings base on the service charges and room charge with tax. Also track billing to see if it is pay or not.
+Payment -​ Payment information Payment Method -​ type of payment.
