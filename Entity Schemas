@@ -1,0 +1,8 @@
+Hotel ​(​Hotel_ID​, City, Phone_No, State, Hotel_type, Zipcode, ​TaxID, Room_ID​) Tax ​(​TaxID​, Tax_desc, Tax_Rate, Tax_Type, ​Hotel_ID​)
+Service ​(​Service_ID​, Service_Type, Service_Desc, Service_Charges, ​Hotel_ID, Billing_ID​)
+Room_Rate ​(​Rate_ID​, Room_Rate, From_Date, Rate, To_Date, ​Hotel_ID​) Room​(​RoomID​, isAdvailable, ​Hotel_ID, Rate_ID​)
+Booking ​(​Book_ID​, Booking_Status, CheckOut_Date, Book_Date, No_of_Guest, checkIn_Date, ​Room_ID, Billing_ID, Customer_ID)​
+Customer ​(​Customer_ID​, Zipcode, DOB, First_Name, Last_Name, Password, Email_Addr, City, State, Phone_No, ​Book_ID)​
+Billing ​(​Billing_ID​, Service_Charges, Tax_Charges, Room_Charges, ​Book_ID​, Payment_ID,​ ​Services_ID)​
+Payment ​(​Payment_ID​, Exp_Date, CreditCardNo, CVC, Payment_Date, NameOnCard, Billing_ID​, ​Payment_Method_ID)​
+Payment_Method​(​Payment_Method_Id​, Description, ​Payment_ID)​
