@@ -1,0 +1,11 @@
+For this Hotel Management System. We have 9 relationship and each relationship hold different information. Read below to see the short description of each relationships.
+● Tax ​applied on​ ​hotel​.
+● Hotel ​has ​rooms​.
+● Room ​is rated​ ​room rate​.
+● Hotel ​has ​services​.
+● Booking ​reserve in ​room​.
+● Service ​billed ​billing​.
+● Billing ​final payment​ ​payment.
+● Booking ​totals to​ ​billing.
+● Customer ​request of​ ​booking.
+● Payment ​pay type​ ​payment method.
